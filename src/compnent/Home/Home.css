@@ -1,0 +1,130 @@
+.home {
+  min-height: 100vh;
+  background-color: #0b0f14;
+
+  background-image:
+    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+
+  background-size: 60px 60px;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.home::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top center,
+    rgba(245,158,11,0.25),
+    transparent 45%
+  );
+}
+
+.home-content {
+  position: relative;
+  text-align: center;
+  max-width: 900px;
+  color: white;
+}
+
+.home-badge {
+  display: inline-block;
+  padding: 8px 18px;
+ 
+  border-radius: 999px;
+  /* border: 1px solid #2a120296; */
+ 
+/* background-color: rgba(146, 79, 38, 0.55); */
+background: #f973161a;
+    border: 1px solid #f973164d;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.home h1 {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.home h1 span {
+    color: #FAA41F;
+}
+
+.home p {
+  color: #cfcfcf;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 55px;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #aaa;
+  color: white;
+  padding: 10px 28px;
+  border-radius: 999px;
+}
+
+.btn-main {
+  background: #ED5D0E;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 999px;
+  color: black;
+  font-weight: 500;
+}
+
+.home-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:20px;
+}
+
+.stat {
+  background: #161616cc;
+    border: 1px solid #262626;
+  border-radius: 26px;
+  /* padding: 40px; */
+  padding-top: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 20px;
+  
+ 
+}
+
+.stat:hover{
+  transform :scale(1.05);
+  transition: transform 0.6s ease;
+  
+}
+
+
+.stat h3 {
+  color: #ED5D0E;
+  margin-bottom: 5px;
+}
+
+.home-stats .stat i{
+     color: #ED5D0E;
+}
+
+
+.home-stats .stat h3{
+ color: #FAA41F
+}

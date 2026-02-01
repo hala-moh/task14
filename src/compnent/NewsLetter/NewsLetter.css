@@ -1,0 +1,120 @@
+/* WRAPPER */
+.adasa-newsletter {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(circle at top, #1c1f26, #0f1115);
+  font-family: "Cairo", sans-serif;
+}
+
+/* CARD */
+.adasa-newsletter-card {
+  width: 100%;
+  max-width: 900px;
+  background: linear-gradient(180deg, #1f232b, #171a20);
+  border-radius: 18px;
+  padding: 50px 60px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+}
+
+/* ICON */
+.adasa-newsletter-icon {
+  width: 56px;
+  height: 56px;
+  background: #ff7a00;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 25px;
+  font-size: 22px;
+  color: #fff;
+}
+
+/* TITLE */
+.adasa-newsletter-title {
+  font-size: 35px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+.hala{
+    color: #ff7a00 !important;
+}
+/* DESC */
+.adasa-newsletter-desc {
+  color: #b5b5b5;
+  font-size: 18px;
+  margin-bottom: 35px;
+  line-height: 1.8;
+
+}
+/* FORM */
+.adasa-newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.adasa-newsletter-form input {
+  width: 320px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid #2a2f38;
+  background: #111318;
+  color: #fff;
+  outline: none;
+}
+
+.adasa-newsletter-form input::placeholder {
+  color: #777;
+}
+
+.adasa-newsletter-form button {
+  background: linear-gradient(135deg, #ff7a00, #ff7a00);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 0 26px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.adasa-newsletter-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(255, 140, 26, 0.35);
+}
+
+/* FOOTER */
+.adasa-newsletter-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #9a9a9a;
+  font-size: 13px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* USERS */
+.adasa-newsletter-users {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.adasa-newsletter-users img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #1f232b;
+}
+
+.adasa-newsletter-users span {
+  margin-right: 8px;
+  font-size: 12px;
+  color: #ccc;
+}
